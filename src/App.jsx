@@ -1,9 +1,10 @@
 import Joke from "./components/Joke";
+import "./App.css";
  
 function App() {
     return (
-        <div className="App">
-            <h1>Joke Generator Using React and Joke API</h1>
+        <div className="min-h-screen flex flex-col items-center justify-center bg-green-800">
+            <h1 className="text-white font-bold text-3xl">Tech is Cool but lets look at some comedy out of it</h1>
             <Joke/>
         </div>
     );
